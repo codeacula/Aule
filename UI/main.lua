@@ -6,3 +6,5 @@ AuleSettings = {
     bottom = 100,
 }
 AuleWindows = AuleWindows or {}
+
+gmod.enableModule("AuleUI", "IRE.Rift")

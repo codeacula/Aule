@@ -13,6 +13,13 @@ function Aule.init()
     setBorderRight(AuleSettings.right)
     setBorderBottom(AuleSettings.bottom)
 
+    setCmdLineStyleSheet("main", [[
+        QPlainTextEdit {
+            padding-left: ]] .. AuleSettings.left .. [[px;
+            background-color: black;
+        }
+    ]])
+
     Aule.setupRight()
     Aule.setupLeft()
     Aule.setupTop()

@@ -4,5 +4,5 @@ function Aule.setupRight()
         y = 0,
         width = AuleSettings.right,
         height = AuleSettings.clientHeight,
-    });
+    })
 end

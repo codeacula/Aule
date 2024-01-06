@@ -1,0 +1,12 @@
+{
+    "Lua.diagnostics.globals": [
+        "setBorderLeft",
+        "setBorderTop",
+        "setBorderRight",
+        "setBorderBottom",
+        "setCmdLineStyleSheet",
+        "getMainWindowSize",
+        "raiseEvent",
+        "Geyser"
+    ]
+}
